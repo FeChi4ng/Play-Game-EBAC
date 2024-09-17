@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(221, 222, 223);
+}
+
+header {
+    font-family: "Bungee Inline", sans-serif;
+    font-weight: normal;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgba(255, 0, 0, 0.808);
+    color: #ecf0f1;
+    box-shadow: 0px 2px 6px 0px black;
+}
+
+.contai {
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    transition: .2s ease-in-out;
+}
+
+header .contai {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section p {
+    padding: 15px;
+    margin-top: -20px;
+    font-family: "Roboto", sans-serif;
+}
+
+section h2 {
+    padding: 15px;
+    margin: 10px;
+    font-family: "Bungee Inline", sans-serif;
+    font-weight: normal;
+}
+
+section .first-photo {
+    width: 650px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 6px 0px black;
+}
+
+section .segunda-photo {
+    width: 650px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 6px 0px black;
+}
+
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: #f5f6fa;
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#myplays {
+    background-color: #cac9c9;
+    box-shadow: 0px 0px 9px 3px black;
+}
+
+#myplays .articles article a {
+    background-color: #c03a3a;
+}
+
+#myplays .articles article a:hover {
+    background-color: #e62424;
+    border-radius: 30px;
+    transition: .2s ease-in-out;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
